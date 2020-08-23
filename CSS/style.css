@@ -1210,6 +1210,11 @@ footer div p {
   header div.menu a img {
     padding-left: 11%;
   }
+
+  .row.menu2.no-gutters {
+    padding-top: 95px;
+}
+
   header div.menu2 h1 {
     font-size: 1.4em;
     margin-top: 40px;
