@@ -126,10 +126,14 @@ header div.menu button:hover {
   border: 1px solid #1cb8e8;
 }
 
+.menu2 {
+  padding-top: 150px;
+}
+
 header div.menu2 h1 {
   font-size: 52px;
   font-weight: bold;
-  margin-top: 250px;
+  margin-top: 150px;
   margin-bottom: 10px;
   text-align: center;
   color: #fff;
@@ -367,7 +371,6 @@ div.menu5 a:hover {
 ********Lupu Sevastian********
 ******************************/
 section div.program img {
-  max-width: 100%;
   vertical-align: bottom;
 }
 
@@ -625,9 +628,9 @@ section.footer p span.whites {
 }
 
 section.footer ul {
-  margin-top: 70px;
-  margin-left: 15px;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
   list-style: none;
 }
 
@@ -718,8 +721,7 @@ section.footer button {
           box-sizing: border-box;
   width: 170px;
   height: 45px;
-  margin-top: 30px;
-  margin-left: 210px;
+  margin: 35px auto;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -759,10 +761,10 @@ footer ul li {
 }
 
 footer div p {
-  font-size: 16px;
+  font-size: 1.5vw;
   font-weight: bold;
   margin-top: 55px;
-  margin-left: 80px;
+  margin-left: 5%;
   color: #fff;
 }
 
@@ -771,6 +773,14 @@ footer div p {
 ******************************/
 /*(phones less than 320px)*/
 @media (max-width: 319.98px) {
+  .navbar {
+    width: 100%;
+    background-color: rgba(0,0,0,.9);
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
+  }
   body {
     overflow-x: hidden;
   }
@@ -779,15 +789,19 @@ footer div p {
   }
   header div.menu a img {
     max-width: 35vw;
-    padding-top: 30px;
     padding-left: 5%;
   }
   header {
     height: 400px;
     text-align: left;
   }
+
+  .menu2 {
+    padding-top: 150px;
+  }
+
   header div.menu2 h1 {
-    font-size: .5em;
+    font-size: .7em;
     margin-top: 30px;
   }
   header div.menu2 p {
@@ -939,18 +953,18 @@ footer div p {
     margin-left: 15%;
   }
   section.footer p.street {
-    font-size: 7vw;
-    margin-top: 40px;
+    font-size: 5vw;
+    margin-top: 10px;
     margin-bottom: 33px;
     margin-left: 15%;
   }
   section.footer p {
-    font-size: 6vw;
+    font-size: 5vw;
     margin-left: 15%;
   }
   section.footer ul {
-    margin-top: 40px;
-    margin-left: 25%;
+    display: flex;
+    justify-content: center;
   }
   section.footer input[type='text'],
   section.footer input[type='email'] {
@@ -981,12 +995,24 @@ footer div p {
 
 /*Very small devices (portrait phones, less than 576px)*/
 @media (min-width: 319.98px) and (max-width: 575.98px) {
+  .navbar {
+    width: 100%;
+    background-color: rgba(0,0,0,.9);
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
+  }
+
+  form.form-inline.my-2.my-lg-0.ml-lg-5 {
+    display: none;
+}
+
   header div.menu {
     background: transparent;
   }
   header div.menu a img {
     max-width: 35vw;
-    padding-top: 30px;
     padding-left: 5%;
   }
   header div.menu input {
@@ -997,6 +1023,11 @@ footer div p {
     height: 400px;
     text-align: left;
   }
+
+  header div.menu2 {
+    padding-top: 130px;
+  }
+
   header div.menu2 h1 {
     font-size: 1em;
     margin-top: 30px;
@@ -1168,10 +1199,6 @@ footer div p {
     font-size: 1.2em;
     margin-left: 15%;
   }
-  section.footer ul {
-    margin-top: 40px;
-    margin-left: 15%;
-  }
   section.footer input[type='text'],
   section.footer input[type='email'] {
     width: 65%;
@@ -1195,14 +1222,21 @@ footer div p {
     margin: 25px auto;
   }
   footer div p {
-    font-size: 1.1em;
-    position: absolute;
-    margin-left: 2%;
+    font-size: 3vw;
+    margin-left: 5%;
   }
 }
 
 /*Small devices (landscape phones, 576px and higher)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
+}
+
   header {
     height: 450px;
     background-position: right;
@@ -1211,9 +1245,9 @@ footer div p {
     padding-left: 11%;
   }
 
-  .row.menu2.no-gutters {
-    padding-top: 95px;
-}
+  .menu2 {
+    padding-top: 150px;
+  }
 
   header div.menu2 h1 {
     font-size: 1.4em;
@@ -1363,23 +1397,19 @@ footer div p {
     height: 100%;
   }
   section.footer div.contact {
-    font-size: 3em;
-    margin-top: 50px;
+    font-size: 2.5em;
+    margin-top: 10px;
     margin-left: 20%;
   }
   section.footer p.street {
-    font-size: 1.2em;
+    font-size: 2.5vw;
     margin-top: 40px;
     margin-bottom: 33px;
     margin-left: 20%;
   }
   section.footer p {
-    font-size: 2em;
+    font-size: 3vw;
     margin-left: 20%;
-  }
-  section.footer ul {
-    margin-top: 40px;
-    margin-left: 19%;
   }
   section.footer input[type='text'],
   section.footer input[type='email'] {
@@ -1401,18 +1431,23 @@ footer div p {
   }
   section.footer button {
     width: 135px;
-    margin-bottom: 20px;
-    margin-left: 38%;
+    margin: 20px auto;
   }
   footer div p {
-    font-size: 1.6em;
-    position: absolute;
-    margin-left: 2%;
+    font-size: 3vw;
+    margin-left: 5%;
   }
 }
 
 /*Medium-sized devices (tablets, 768px and higher)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
+}
   header {
     height: 550px;
     background-position: center right;
@@ -1426,10 +1461,16 @@ footer div p {
   header div.menu input:focus {
     width: 130px;
   }
+  
   header div.menu2 h1 {
     font-size: 1.7em;
     margin-top: 100px;
   }
+
+  .menu2 {
+    padding-top: 150px;
+  }
+
   div.menu2 a {
     font-size: .9em;
     width: 155px;
@@ -1464,6 +1505,7 @@ footer div p {
   section div.menu3 {
     padding-top: 70px;
     padding-left: 100px;
+    border-bottom: 1px solid #e6e6e6;
   }
   div.menu3 a.buttone {
     font-size: .9em;
@@ -1503,7 +1545,7 @@ footer div p {
   }
   section div.program img {
     width: 49vw;
-    height: 100%;
+    height: 56vh;
   }
   div.program h3 {
     font-size: 1em;
@@ -1585,10 +1627,6 @@ footer div p {
     font-size: 2em;
     margin-left: 20%;
   }
-  section.footer ul {
-    margin-top: 40px;
-    margin-left: 20%;
-  }
   section.footer input[type='text'],
   section.footer input[type='email'] {
     width: 60%;
@@ -1609,8 +1647,7 @@ footer div p {
     border: 1px solid #1cb8e8;
   }
   section.footer button {
-    margin-left: 260px;
-    margin-bottom: 20px;
+    margin: 30px auto;
   }
   footer ul {
     margin-top: 55px;
@@ -1620,8 +1657,8 @@ footer div p {
     font-size: .8em;
   }
   footer div p {
-    font-size: 1.1em;
-    margin-left: 2%;
+    font-size: 1.5vw;
+    margin-left: 5%;
   }
 }
 
@@ -1717,11 +1754,9 @@ footer div p {
     margin-left: 10%;
   }
   section.footer button {
-    margin-left: 140px;
+    margin: 30px auto;
   }
-  section.footer button:hover {
-    margin-left: 140px;
-  }
+  
   footer ul {
     margin-left: 10%;
   }
@@ -1732,6 +1767,11 @@ footer div p {
 
 /*Very large devices (large desktops, 1200px and higher)*/
 @media (min-width: 1200px) {
+  section div.program img {
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+
   section.my-team div.name {
     margin-left: 3vw;
   }
@@ -1749,5 +1789,13 @@ footer div p {
   }
   section.my-team div.teams span.three-span {
     margin-left: 3vw;
+  }
+
+  footer div p {
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-top: 55px;
+    margin-left: 5%;
+    color: #fff;
   }
 }
