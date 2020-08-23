@@ -26,7 +26,7 @@ header div.menu {
 
 .btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active {
@@ -37,14 +37,13 @@ header div.menu {
 
 .btn.focus, .btn:focus {
   -webkit-box-shadow: none;
-          box-shadow: none;
-          outline: 0;
+  box-shadow: none;
+  outline: 0;
 }
 
-.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus,
-.show > .btn-outline-success.dropdown-toggle:focus {
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-success.dropdown-toggle:focus {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .btn-outline-success:hover {
@@ -68,10 +67,10 @@ header div.menu {
 }
 
 .btn-secondary {
-    color: #1cb8e8;
-    background-color: transparent;
-    border: none;
-    outline: none;
+  color: #1cb8e8;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 header ul.menu-1 a:hover {
@@ -112,7 +111,7 @@ input.form-control {
   color: #fff;
   border-color: transparent;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   border: 1px solid #e02cf6;
 }
 
@@ -158,7 +157,7 @@ div.menu2 a {
   z-index: 1;
   display: block;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 200px;
   height: 45px;
   margin: 10px auto;
@@ -175,7 +174,7 @@ div.menu2 a {
 
 div.menu2 a:hover {
   -webkit-animation: animate 8s linear infinite;
-          animation: animate 8s linear infinite;
+  animation: animate 8s linear infinite;
 }
 
 @-webkit-keyframes animate {
@@ -203,6 +202,7 @@ div p span {
 /******************************
 **********Our service**********
 ******************************/
+
 section.our-service h2 {
   font-size: 48px;
   font-weight: bold;
@@ -251,7 +251,7 @@ div.menu3 a.buttone {
   line-height: 45px;
   display: block;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 180px;
   height: 45px;
   margin: 40px auto;
@@ -268,7 +268,7 @@ div.menu3 a.buttone {
 
 div.menu3 a.buttone:hover {
   -webkit-animation: animate 8s linear infinite;
-          animation: animate 8s linear infinite;
+  animation: animate 8s linear infinite;
 }
 
 div.p1 {
@@ -283,8 +283,7 @@ div.p2 {
   background-position: 385% -10%;
 }
 
-div.menu4 h3,
-div.menu5 h3 {
+div.menu4 h3, div.menu5 h3 {
   font-size: 40px;
   font-weight: bold;
   margin-top: 168px;
@@ -292,8 +291,7 @@ div.menu5 h3 {
   color: #1cb8e8;
 }
 
-div.menu4 p,
-div.menu5 p {
+div.menu4 p, div.menu5 p {
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
@@ -308,7 +306,7 @@ div.menu4 a {
   line-height: 45px;
   display: block;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 180px;
   height: 45px;
   margin-top: 50px;
@@ -326,7 +324,7 @@ div.menu4 a {
 
 div.menu4 a:hover {
   -webkit-animation: animate 8s linear infinite;
-          animation: animate 8s linear infinite;
+  animation: animate 8s linear infinite;
 }
 
 div.menu4 img {
@@ -345,7 +343,7 @@ div.menu5 a {
   line-height: 45px;
   display: block;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 180px;
   height: 45px;
   margin-top: 50px;
@@ -364,12 +362,13 @@ div.menu5 a {
 
 div.menu5 a:hover {
   -webkit-animation: animate 8s linear infinite;
-          animation: animate 8s linear infinite;
+  animation: animate 8s linear infinite;
 }
 
 /******************************
 ********Lupu Sevastian********
 ******************************/
+
 section div.program img {
   vertical-align: bottom;
 }
@@ -398,7 +397,7 @@ div.program a {
   line-height: 45px;
   display: block;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 180px;
   height: 45px;
   margin-top: 30px;
@@ -416,12 +415,13 @@ div.program a {
 
 div.program a:hover {
   -webkit-animation: animate 8s linear infinite;
-          animation: animate 8s linear infinite;
+  animation: animate 8s linear infinite;
 }
 
 /******************************
 *****4 blocks with photos******
 ******************************/
+
 div.one-block {
   max-height: 420px;
   background-image: url(../IMG/one-block.png);
@@ -477,6 +477,7 @@ div h4:hover {
 /******************************
 *********Awesome team**********
 ******************************/
+
 section.my-team {
   height: 900px;
   background-image: url(../IMG/back-6.jpg);
@@ -567,7 +568,7 @@ section.my-team div.teams a {
   line-height: 40px;
   display: block;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 150px;
   height: 40px;
   margin-top: 20px;
@@ -586,12 +587,13 @@ section.my-team div.teams a {
 section.my-team div.teams a:hover {
   color: #fff;
   -webkit-animation: animate 8s linear infinite;
-          animation: animate 8s linear infinite;
+  animation: animate 8s linear infinite;
 }
 
 /******************************
 ******Contact us********
 ******************************/
+
 section.footer {
   height: 720px;
   background-image: url(../IMG/footer.png);
@@ -641,8 +643,7 @@ section.footer ul li {
   margin-right: 15px;
 }
 
-section.footer input[type='text'],
-section.footer input[type='email'] {
+section.footer input[type='text'], section.footer input[type='email'] {
   font-size: 17px;
   display: block;
   width: 600px;
@@ -657,6 +658,7 @@ section.footer input[type='email'] {
 }
 
 /*color and visibility of text in the input tag*/
+
 input::-webkit-input-placeholder {
   opacity: 1;
   color: #fff;
@@ -678,6 +680,7 @@ input:-ms-input-placeholder {
 }
 
 /*visibility of text in placeholder after clicking on it*/
+
 input:focus::-webkit-input-placeholder {
   opacity: 0;
 }
@@ -718,7 +721,7 @@ section.footer button {
   line-height: 35px;
   display: block;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 170px;
   height: 45px;
   margin: 35px auto;
@@ -736,12 +739,13 @@ section.footer button {
 
 section.footer button:hover {
   -webkit-animation: animate 8s linear infinite;
-          animation: animate 8s linear infinite;
+  animation: animate 8s linear infinite;
 }
 
 /******************************
 ************footer*************
 ******************************/
+
 footer {
   height: 130px;
   background-color: #000;
@@ -771,13 +775,14 @@ footer div p {
 /******************************
 *******Adaptive Media VP******
 ******************************/
+
 /*(phones less than 320px)*/
+
 @media (max-width: 319.98px) {
   .navbar {
     width: 100%;
-    background-color: rgba(0,0,0,.9);
+    background-color: rgba(0, 0, 0, .9);
   }
-
   .navbar-toggler {
     background-color: #fff;
   }
@@ -795,11 +800,9 @@ footer div p {
     height: 400px;
     text-align: left;
   }
-
   .menu2 {
     padding-top: 150px;
   }
-
   header div.menu2 h1 {
     font-size: .7em;
     margin-top: 30px;
@@ -840,15 +843,13 @@ footer div p {
     margin: 0 auto;
     padding-bottom: 40px;
   }
-  div.menu4 h3,
-  div.menu5 h3 {
+  div.menu4 h3, div.menu5 h3 {
     font-size: 6vw;
     margin-top: 80px;
     padding-bottom: 20px;
     text-align: center;
   }
-  div.menu4 p,
-  div.menu5 p {
+  div.menu4 p, div.menu5 p {
     max-width: 70vw;
     margin: 0 auto;
     padding-bottom: 20px;
@@ -966,8 +967,7 @@ footer div p {
     display: flex;
     justify-content: center;
   }
-  section.footer input[type='text'],
-  section.footer input[type='email'] {
+  section.footer input[type='text'], section.footer input[type='email'] {
     width: 65%;
     height: 10%;
     margin-left: 17%;
@@ -994,20 +994,18 @@ footer div p {
 }
 
 /*Very small devices (portrait phones, less than 576px)*/
+
 @media (min-width: 319.98px) and (max-width: 575.98px) {
   .navbar {
     width: 100%;
-    background-color: rgba(0,0,0,.9);
+    background-color: rgba(0, 0, 0, .9);
   }
-
   .navbar-toggler {
     background-color: #fff;
   }
-
   form.form-inline.my-2.my-lg-0.ml-lg-5 {
     display: none;
-}
-
+  }
   header div.menu {
     background: transparent;
   }
@@ -1023,11 +1021,9 @@ footer div p {
     height: 400px;
     text-align: left;
   }
-
   header div.menu2 {
     padding-top: 130px;
   }
-
   header div.menu2 h1 {
     font-size: 1em;
     margin-top: 30px;
@@ -1049,6 +1045,7 @@ footer div p {
   }
   div.menu3 h3 {
     font-size: 5.5vw;
+    margin-top: 10px;
     margin-bottom: 30px;
     text-align: center;
   }
@@ -1056,8 +1053,7 @@ footer div p {
     max-width: 100%;
     padding-bottom: 40px;
   }
-  div.menu4 h3,
-  div.menu5 h3 {
+  div.menu4 h3, div.menu5 h3 {
     font-size: 8vw;
     margin-top: 80px;
     padding-top: 40px;
@@ -1065,8 +1061,7 @@ footer div p {
     text-align: center;
     border-top: 1px solid #e6e6e6;
   }
-  div.menu4 p,
-  div.menu5 p {
+  div.menu4 p, div.menu5 p {
     max-width: 100%;
   }
   div.menu4 img {
@@ -1199,11 +1194,10 @@ footer div p {
     font-size: 1.2em;
     margin-left: 15%;
   }
-  section.footer input[type='text'],
-  section.footer input[type='email'] {
+  section.footer input[type='text'], section.footer input[type='email'] {
     width: 65%;
     height: 10%;
-    margin-left: 17%;
+    margin: 20px auto;
     padding: 5%;
     border: 1px solid #1cb8e8;
   }
@@ -1213,7 +1207,7 @@ footer div p {
   section.footer textarea {
     width: 65%;
     height: 40%;
-    margin-left: 17%;
+    margin: 20px auto;
     padding: 5% 10% 20% 5%;
     border: 1px solid #1cb8e8;
   }
@@ -1228,15 +1222,14 @@ footer div p {
 }
 
 /*Small devices (landscape phones, 576px and higher)*/
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navbar {
     width: 100%;
   }
-
   .navbar-toggler {
     background-color: #fff;
-}
-
+  }
   header {
     height: 450px;
     background-position: right;
@@ -1244,11 +1237,9 @@ footer div p {
   header div.menu a img {
     padding-left: 11%;
   }
-
   .menu2 {
     padding-top: 150px;
   }
-
   header div.menu2 h1 {
     font-size: 1.4em;
     margin-top: 40px;
@@ -1299,14 +1290,12 @@ footer div p {
   div.menu5 img {
     display: none;
   }
-  div.menu4 h3,
-  div.menu5 h3 {
+  div.menu4 h3, div.menu5 h3 {
     font-size: 2em;
     margin-top: 100px;
     padding-bottom: 0;
   }
-  div.menu4 p,
-  div.menu5 p {
+  div.menu4 p, div.menu5 p {
     font-size: 1.2em;
     font-weight: bold;
   }
@@ -1411,11 +1400,10 @@ footer div p {
     font-size: 3vw;
     margin-left: 20%;
   }
-  section.footer input[type='text'],
-  section.footer input[type='email'] {
+  section.footer input[type='text'], section.footer input[type='email'] {
     width: 60%;
     height: 10%;
-    margin-left: 21%;
+    margin: 20px auto;
     padding: 3%;
     border: 1px solid #1cb8e8;
   }
@@ -1425,7 +1413,7 @@ footer div p {
   section.footer textarea {
     width: 60%;
     height: 40%;
-    margin-left: 21%;
+    margin: 20px auto;
     padding: 5% 10% 20% 5%;
     border: 1px solid #1cb8e8;
   }
@@ -1440,14 +1428,14 @@ footer div p {
 }
 
 /*Medium-sized devices (tablets, 768px and higher)*/
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .navbar {
     width: 100%;
   }
-
   .navbar-toggler {
     background-color: #fff;
-}
+  }
   header {
     height: 550px;
     background-position: center right;
@@ -1461,16 +1449,13 @@ footer div p {
   header div.menu input:focus {
     width: 130px;
   }
-  
   header div.menu2 h1 {
     font-size: 1.7em;
     margin-top: 100px;
   }
-
   .menu2 {
     padding-top: 150px;
   }
-
   div.menu2 a {
     font-size: .9em;
     width: 155px;
@@ -1512,14 +1497,12 @@ footer div p {
     width: 175px;
     margin: 15px 145px;
   }
-  div.menu4 h3,
-  div.menu5 h3 {
+  div.menu4 h3, div.menu5 h3 {
     font-size: 1.7em;
     margin-top: 25px;
     padding-bottom: 5px;
   }
-  div.menu4 p,
-  div.menu5 p {
+  div.menu4 p, div.menu5 p {
     font-size: 1em;
     font-weight: bold;
     max-width: 100%;
@@ -1627,8 +1610,7 @@ footer div p {
     font-size: 2em;
     margin-left: 20%;
   }
-  section.footer input[type='text'],
-  section.footer input[type='email'] {
+  section.footer input[type='text'], section.footer input[type='email'] {
     width: 60%;
     height: 10%;
     margin-left: 10%;
@@ -1663,6 +1645,7 @@ footer div p {
 }
 
 /*Large devices (desktops, 992px and higher)*/
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
   div.menu2 a {
     margin-top: 30px;
@@ -1673,7 +1656,6 @@ footer div p {
   header {
     height: 750px;
   }
-
   header div.menu2 h1 {
     margin-top: 180px;
   }
@@ -1744,8 +1726,7 @@ footer div p {
   section.footer input[type='text'] {
     margin-top: 170px;
   }
-  section.footer input[type='text'],
-  section.footer input[type='email'] {
+  section.footer input[type='text'], section.footer input[type='email'] {
     width: 80%;
     margin-left: 10%;
   }
@@ -1756,7 +1737,6 @@ footer div p {
   section.footer button {
     margin: 30px auto;
   }
-  
   footer ul {
     margin-left: 10%;
   }
@@ -1766,12 +1746,12 @@ footer div p {
 }
 
 /*Very large devices (large desktops, 1200px and higher)*/
+
 @media (min-width: 1200px) {
   section div.program img {
     max-width: 100%;
     vertical-align: bottom;
   }
-
   section.my-team div.name {
     margin-left: 3vw;
   }
@@ -1790,7 +1770,6 @@ footer div p {
   section.my-team div.teams span.three-span {
     margin-left: 3vw;
   }
-
   footer div p {
     font-size: 1.2vw;
     font-weight: bold;
