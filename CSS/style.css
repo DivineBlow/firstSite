@@ -28,6 +28,12 @@ header div.menu {
   width: 100%;
 }
 
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+  color: #fff;
+  background-color: #1cb8e8;
+  border-color: #1cb8e8;
+}
+
 .btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -482,6 +488,7 @@ div h4:hover {
   text-align: center;
   color: #fff;
   background: rgba(0, 0, 0, 0.3);
+  outline: none;
 }
 
 /******************************
@@ -796,11 +803,9 @@ footer div p {
   .navbar-toggler {
     background-color: #fff;
   }
-
   form.form-inline {
     display: none;
   }
-
   body {
     overflow-x: hidden;
   }
@@ -1247,11 +1252,9 @@ footer div p {
   .navbar-toggler {
     background-color: #fff;
   }
-
   form.form-inline {
     display: none;
   }
-
   header {
     height: 450px;
     background-position: right;
@@ -1459,11 +1462,9 @@ footer div p {
   .navbar-toggler {
     background-color: #fff;
   }
-
   form.form-inline {
     display: none;
   }
-
   header {
     height: 550px;
     background-position: center right;
@@ -1618,22 +1619,24 @@ footer div p {
     margin-left: 275px;
   }
   section.footer {
-    height: 150vh;
+    height: 90vh;
+  }
+  form {
+    width: 100%;
+    margin-top: 9vh;
+    margin-left: 5vw;
   }
   section.footer div.contact {
     font-size: 3em;
     margin-top: 50px;
-    margin-left: 20%;
   }
   section.footer p.street {
     font-size: 1.2em;
     margin-top: 40px;
     margin-bottom: 33px;
-    margin-left: 20%;
   }
   section.footer p {
     font-size: 2em;
-    margin-left: 20%;
   }
   section.footer input[type='text'], section.footer input[type='email'] {
     width: 60%;
