@@ -921,11 +921,13 @@ footer div p {
     display: none;
   }
   section.my-team {
-    height: 175vh;
+    height: auto;
     background-image: none;
   }
   section.my-team h2 {
     font-size: 8vw;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 20px;
   }
   section.my-team div.teams img {
     width: 65vw;
@@ -964,11 +966,9 @@ footer div p {
   }
   section.footer {
     width: 100%;
-    height: 100%;
+    height: 149.1vh;
   }
-  footer {
-    height: 0;
-  }
+
   section.footer div.contact {
     font-size: 9vw;
     margin-top: 50px;
@@ -986,7 +986,14 @@ footer div p {
   }
   section.footer ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    padding: 15px;
+  }
+  section.footer ul li {
+    display: inline-block;
+    width: 15vw;
+    margin: 15px;
   }
   section.footer input[type='text'], section.footer input[type='email'] {
     width: 65%;
@@ -1009,8 +1016,9 @@ footer div p {
     width: 110px;
     margin: 25px auto;
   }
+
   footer div p {
-    display: none;
+    font-size: 2.9vw;
   }
 }
 
