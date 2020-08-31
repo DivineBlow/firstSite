@@ -1565,7 +1565,7 @@ footer div p {
   }
   section div.program img {
     width: 100%;
-    height: 50vh;
+    height: 55vh;
   }
   div.program h3 {
     font-size: 1em;
@@ -1627,7 +1627,7 @@ footer div p {
     margin-left: 275px;
   }
   section.footer {
-    height: 90vh;
+    height: auto;
   }
   form {
     width: 100%;
@@ -1750,6 +1750,7 @@ footer div p {
     background-size: 113%;
   }
   div.teams {
+    margin-top: 85px;
     margin-left: -20px;
   }
   div h4 {
