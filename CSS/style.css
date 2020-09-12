@@ -416,8 +416,7 @@ div.program a {
   box-sizing: border-box;
   width: 180px;
   height: 45px;
-  margin-top: 30px;
-  margin-left: 36%;
+  margin: 40px auto;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -1463,6 +1462,10 @@ footer div p {
 /*Medium-sized devices (tablets, 768px and higher)*/
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    overflow: hidden;
+  }
+
   .navbar {
     width: 100%;
     background-color: rgba(0, 0, 0, .9);
@@ -1565,7 +1568,7 @@ footer div p {
   }
   section div.program img {
     width: 100%;
-    height: 55vh;
+    height: auto;
   }
   div.program h3 {
     font-size: 1em;
