@@ -3,6 +3,7 @@
   padding-left: 0;
 }
 
+
 body {
   font-family: 'Montserrat', sans-serif;
   position: relative;
@@ -19,13 +20,9 @@ header {
 header div.menu {
   position: fixed;
   height: 94px;
-  width: 100%;
+  width: 100vw;
   background: rgba(0, 0, 0, 0.9);
   z-index: 5;
-}
-
-.navbar-expand-lg {
-  width: 100%;
 }
 
 .btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
@@ -1462,10 +1459,6 @@ footer div p {
 /*Medium-sized devices (tablets, 768px and higher)*/
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  body {
-    overflow: hidden;
-  }
-
   .navbar {
     width: 100%;
     background-color: rgba(0, 0, 0, .9);
