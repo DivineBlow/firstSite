@@ -2,7 +2,9 @@
   padding-right: 0;
   padding-left: 0;
 }
-
+html, body {
+  overflow-x: hidden;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -1560,8 +1562,7 @@ footer div p {
     margin-left: 80px;
   }
   section div.program img {
-    width: 100%;
-    height: auto;
+    height: 100%;
   }
   div.program h3 {
     font-size: 1em;
@@ -1718,6 +1719,7 @@ footer div p {
   }
   section div.program img {
     width: 100%;
+    height: 100%;
     vertical-align: bottom;
   }
   div.program h3 {
